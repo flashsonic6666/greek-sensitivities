@@ -61,4 +61,4 @@ richwang.y@gmail.com
 MIT Open Source License
 
 ### Project Status
-🟢 Active — under development during internship period.
+🟢 Active — under development.
