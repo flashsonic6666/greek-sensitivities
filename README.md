@@ -1,4 +1,4 @@
-**# greek-sensitivities**# Greek Sensitivities
+# Greek Sensitivities
 
 A Black-Scholes visualization tool for understanding how option prices and Greeks (like delta, gamma, theta, vega, rho, and higher-order Greeks) behave as a function of various inputs such as strike price, volatility, time to expiration, and interest rates.
 
