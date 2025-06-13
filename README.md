@@ -15,26 +15,29 @@ Built to support intuitive exploration of first- and second-order option sensiti
 - `numpy`
 - `scipy`
 - `ipywidgets`
-- `jupyter` or VSCode with notebook support
+- `ipympl`
+- `jupyterlab`
 
 ### Installation
 
 ```bash
-git clone https://gitlab.ad.valkyrietrading.com/rwang/greek-sensitivities.git
+git clone https://github.com/flashsonic6666/greek-sensitivities.git
 cd greek-sensitivities
-python -m venv valkenv
-valkenv\Scripts\activate  # On Windows
+python -m venv greek-sensitivites
+greek-sensitivites\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
 ### Usage
-1. Launch a Jupyter notebook
+1. Launch Jupyter Lab
 2. Open greek_sensitivities.ipynb
-3. Select from:
-    - Option type: call or put
-    - Independent variable: e.g. strike_price, volatility
-    - Dependent variable: delta, gamma, etc.
-4. Click Generate Plot to visualize the results.
+3. In the second to last cell:
+    - Select from:
+        - Option type: call or put
+        - Independent variable: e.g. strike_price, volatility
+        - Dependent variable: delta, gamma, etc.
+    - Click Generate Plot to visualize the results.
+5. In the last cell, test your knowledge of the Greeks by dragging your mouse along the graph to draw the sensitivity graph. Keep track of your stats!
 
 ### Features
 Interactive plots for:
